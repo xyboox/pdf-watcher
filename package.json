@@ -1,0 +1,28 @@
+{
+	"name": "@setreflex/pdfwatcher",
+	"type": "module",
+	"version": "1.1.0-0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "setReflex",
+	"license": "ISC",
+	"description": "Watch a directory for incoming pdf files and transform them into png images.",
+	"dependencies": {
+		"chokidar": "^3.6.0",
+		"pdf-lib": "^1.17.1",
+		"pdf-poppler": "^0.2.1",
+		"sharp": "^0.33.4"
+	},
+	"devDependencies": {
+		"@types/chokidar": "^2.1.3",
+		"@types/node": "^20.14.11",
+		"@types/sharp": "^0.32.0",
+		"typescript": "^5.5.3"
+	},
+	"bin": {
+		"pdfwatcher": "bin/index.js"
+	}
+}
